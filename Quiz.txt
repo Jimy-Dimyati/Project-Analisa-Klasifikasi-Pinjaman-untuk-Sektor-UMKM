@@ -1,0 +1,94 @@
+Quiz 1
+Misalkan kamu diberikan vektor A = c(3,6,9,12) dan B = c(4,6,7,8).
+Pilihlah kode di bawah ini untuk menunjukkan entry yang ada pada vektor A tidak terdapat pada vektor B.
+a.unique(A,B)
+b.diff(A,B)
+c.setdiff(A,B)
+d.Tidak ada pilihan yang tepat
+Jawaban (c)
+
+Quiz 2
+Diberikan dataframe dengan nama dataframe_01 sebagai berikut:
+Manakah kode pada pilihan jawaban berikut yang dapat digunakan untuk memilih data di atas dengan Jenis Kelamin ‘Lak-laki’ dan dan Pekerjaan ‘Dosen’?
+a.subset(dataframe_01,Jenis Kelamin == “Laki-laki” & Pekerjaan == “Dosen”)
+b.filter(dataframe_01, Jenis Kelamin==”Laki-laki” , Pekerjaan==”Dosen”)
+c.Hanya A saja
+d.A dan B benar
+Jawaban (d)
+
+Quiz 3
+Kamu memiliki vektor A = c(2, “NA”, 3).
+Apakah output dari sum(is.na(A))?
+a.5
+b.1
+c.0
+d.Tidak ada jawaban yang benar
+Jawaban (c)
+
+Quiz 4
+Ukuran keragaman 2 peubah/variabel/feature pada suatu data set dapat ditinjau dengan cara :
+a.Melihat grafik boxplot
+b.Melihat grafik kovariansi
+c.Melihat grafik variansi
+d.Melihat grafik bagplot
+Jawaban (b)
+
+Quiz 5
+Ukuran variabilitas dari suatu data dapat ditinjau melalui :
+a.Jangkauan dan jangkauan antar kuartil
+b.Variansi dan standar deviasi
+c.Jangkauan, jangkauan antar kuartil, variansi, standar deviasi, koefisien variasi, dan korelasi
+d.Jangkauan, jangkauan antar kuartil, variansi, standar deviasi, dan koefisien variasi
+Jawaban (d)
+
+Quiz 6
+Misalkan kamu memiliki dataframe A = data.frame(kolom1 = 1:2) dan B = data.frame(kolom2 = 3).
+Pilihlah jawaban yang tepat untuk membentuk dataframe seperti berikut:
+Kolom1
+1
+2
+3
+a.join(A,B, on = “kolom1”)
+b.A+B
+c.rbind(A,B)
+d.c(A,B)
+Jawaban (c)
+
+Quiz 7
+Coba dilakukan pengecekan untuk hasil dari keluaran berikut :
+numbers <- seq(1, 10)
+for (number in numbers) {
+	if (number %% 2){
+		print(number)
+	}
+}
+Apakah merupakan bilangan ganjil dari 1-10?
+a.Tidak
+b.No output can be showed
+c.Ya
+d.Input is error
+Jawaban (c)
+
+Quiz 8
+Manakah metode berikut ini yang menjadikan vektor memiliki nilai berulang?
+a.repeal()
+b.rep()
+c.view()
+d.reserve()
+Jawaban (b)
+
+uiz 9
+Manakah pilihan berikut ini yang digunakan untuk mendapatkan quantil dari suatu dataset?
+a.barplot()
+b.quantile()
+c.barchart()
+d.plot()
+JAwaban (b)
+
+Quiz 10
+Perintah apakah yang digunakan untuk menampilkan visualisasi boxplot pada vektor A yang bernilai numerik?
+a.boxplot(A,color=”blue”)
+b.boxplot(A,color=”BLUE”)
+c.boxplot(A,color_names=”blue”)
+d.boxplot(A,col=”blue”)
+Jawaban (d)
